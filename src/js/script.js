@@ -1,10 +1,7 @@
-// // Import da configuração (sempre no topo)
-// import { N8N_WEBHOOK_URL } from "./config.js";
-
 // DOM Elements
 const moodInput = document.getElementById("mood-input");
 const searchButton = document.getElementById("search-button");
-
+// ...código removido do microfone...
 // Pega a variável de ambiente do Vercel
 // Em produção, você cria NEXT_PUBLIC_N8N_WEBHOOK_URL no painel do Vercel
 // Localmente, você pode usar um arquivo .env.local

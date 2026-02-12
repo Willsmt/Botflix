@@ -62,13 +62,16 @@ async function handleSearch() {
   try {
     // Fazer POST para o webhook do N8N
 
-    const response = await fetch(N8N_WEBHOOK_URL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
+    const response = await fetch(
+      "https://wmsdg.app.n8n.cloud/webhook/botflix",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: prompt,
       },
-      body: prompt,
-    });
+    );
 
     const data = await response.json();
 

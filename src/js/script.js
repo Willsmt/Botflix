@@ -1,5 +1,5 @@
-// Import da configuração (sempre no topo)
-import { N8N_WEBHOOK_URL } from "./config.js";
+// // Import da configuração (sempre no topo)
+// import { N8N_WEBHOOK_URL } from "./config.js";
 
 // DOM Elements
 const moodInput = document.getElementById("mood-input");

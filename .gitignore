@@ -1,0 +1,24 @@
+# Ignorar configuração sensível
+config.js
+
+# Dependências do Node
+node_modules/
+
+# Builds
+dist/
+build/
+
+# Logs
+*.log
+
+# Arquivos de ambiente
+.env
+*.local
+
+# Cache
+.cache/
+.tmp/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

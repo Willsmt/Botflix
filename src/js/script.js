@@ -1,5 +1,5 @@
 // Import da configuração (sempre no topo)
-import { N8N_WEBHOOK_URL } from "./config";
+import { N8N_WEBHOOK_URL } from "./config.js";
 
 // DOM Elements
 const moodInput = document.getElementById("mood-input");
@@ -60,6 +60,7 @@ async function handleSearch() {
 
   try {
     // Fazer POST para o webhook do N8N
+
     const response = await fetch(N8N_WEBHOOK_URL, {
       method: "POST",
       headers: {

@@ -1,5 +1,8 @@
+## 🖥️ Demonstração
 
-
+> 👉 **Acesse aqui:**  
+>🔗 https://botflix-ten.vercel.app/
+![Demo](./assets/botflix-demo.gif)
 ---
 
 # 📌 🤖 README.md — BotFlix
@@ -20,14 +23,6 @@ BotFlix é uma aplicação web que recomenda filmes com base no seu humor ou no 
 - ⌨️ Suporte à tecla Enter para buscar
 - 🔄 Feedback visual de carregamento
 
----
-
-## 🖥️ Demonstração
-
-> 👉 **Acesse aqui:**  
->🔗 https://botflix-ten.vercel.app/
-
-![BotFlix Demo](assets/botflix-demo.gif)
 ---
 
 ## 🛠️ Tecnologias Utilizadas

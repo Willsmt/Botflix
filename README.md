@@ -26,6 +26,8 @@ BotFlix é uma aplicação web que recomenda filmes com base no seu humor ou no 
 
 > 👉 **Acesse aqui:**  
 >🔗 https://botflix-ten.vercel.app/
+
+![BotFlix Demo](assets/botflix-demo.gif)
 ---
 
 ## 🛠️ Tecnologias Utilizadas
